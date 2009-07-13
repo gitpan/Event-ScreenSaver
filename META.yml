@@ -1,6 +1,6 @@
 ---
 name: Event-ScreenSaver
-version: 0.0.2
+version: 0.0.3
 author:
   - 'Ivan Wills <ivan.wills@gmail.com>'
 abstract: |-
@@ -9,15 +9,19 @@ abstract: |-
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
+requires:
+  List::MoreUtils: 0
+  Moose: 0
+  perl: 5.008
 build_requires:
   Test::More: 0
 provides:
   Event::ScreenSaver:
     file: lib/Event/ScreenSaver.pm
-    version: 0.0.2
+    version: 0.0.3
   Event::ScreenSaver::Unix:
     file: lib/Event/ScreenSaver/Unix.pm
-    version: 0.0.1
+    version: 0.0.3
 generated_by: Module::Build version 0.33
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html

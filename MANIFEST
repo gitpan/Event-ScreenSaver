@@ -16,3 +16,4 @@ t/perlcriticrc
 t/spelling.t
 Makefile.PL
 META.yml
+LICENSE
