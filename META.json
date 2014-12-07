@@ -1,10 +1,10 @@
 {
-   "abstract" : "Provides the ability to hook functions to the starting and stopping of the screen saver (Linux only at the moment)",
+   "abstract" : "Provides the ability to hook functions to the starting",
    "author" : [
       "Ivan Wills <ivan.wills@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4204",
+   "generated_by" : "Module::Build version 0.421",
    "license" : [
       "perl_5"
    ],
@@ -17,7 +17,7 @@
       "build" : {
          "requires" : {
             "Test::More" : "0",
-            "Test::NoWarnings" : "0"
+            "Test::Warnings" : "0"
          }
       },
       "configure" : {
@@ -42,11 +42,11 @@
    "provides" : {
       "Event::ScreenSaver" : {
          "file" : "lib/Event/ScreenSaver.pm",
-         "version" : "v0.0.3"
+         "version" : "v0.0.5"
       },
       "Event::ScreenSaver::Unix" : {
          "file" : "lib/Event/ScreenSaver/Unix.pm",
-         "version" : "v0.0.3"
+         "version" : "v0.0.5"
       }
    },
    "release_status" : "stable",
@@ -61,5 +61,5 @@
          "url" : "http://github.com/ivanwills/Event-ScreenSaver"
       }
    },
-   "version" : "v0.0.3"
+   "version" : "v0.0.5"
 }
